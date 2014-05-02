@@ -27,7 +27,7 @@ module.exports = function (policy) {
       var mid = mids[i];
 
       if (mid.mount) {
-        
+
         // if main app
         if (mid.main) {
           policy.app = policy.app || {};
